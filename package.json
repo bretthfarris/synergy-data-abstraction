@@ -1,0 +1,40 @@
+{
+  "name": "synergy-data-abstraction",
+  "version": "1.0.0",
+  "description": "Data abstraction utility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "dotenv": "^7.0.0",
+    "mongoose": "^5.4.20",
+    "synergy-logger": "https://github.com/bretthfarris/synergy-logger",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bretthfarris/synergy-data-abstraction.git"
+  },
+  "keywords": [
+    "synergy",
+    "data-abstraction",
+    "data",
+    "abstraction",
+    "service"
+  ],
+  "author": "Brett H. Farris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bretthfarris/synergy-data-abstraction/issues"
+  },
+  "homepage": "https://github.com/bretthfarris/synergy-data-abstraction#readme"
+}
